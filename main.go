@@ -1,8 +1,6 @@
 package main
 import "example.com/demo/hello"
+type test struct {}
 func main() {
-    if 1==1{
-        print("ok);
-    }
     hello.Hello();
 }
